@@ -8,7 +8,7 @@
             "name": "Run tests with output",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "test",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/AdventOfCode.2022.Test/bin/Debug/net7.0/AdventOfCode.2022.Test.dll",
             "args": [],
